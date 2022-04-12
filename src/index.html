@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ShareX Config File Generator</title>
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    <button id="button">Save JSON</button>
-
-    <script type="text/javascript" src="index.js"></script>
+    <div class="main">
+        <div class="inner">
+            <h1 class="title">ShareX Config File Generator</h1>
+            <p class="sc-eCApnc iylGhi">This is an ShareX Config File (.sxcu) generator. Just enter the domain you want to host something below and click on "Save Config".</p>
+            <form>
+                <input id="domain" type="url" onchange="changeDomain()" placeholder="Enter your host domain..." required>
+                <button id="button">Save Config</button>
+            </form>
+            <br>
+            <div class="link">
+              <a href="https://github.com/KonVision" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/index.js"></script>
 </body>
 </html>

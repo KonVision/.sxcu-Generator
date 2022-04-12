@@ -1,3 +1,11 @@
+let domain = 0;
+var changeDomain = ()=>{
+    domain = document.getElementById("domain").value;
+    console.log("Entered Domain is" + domain);
+}
+
+
+
 function encode( s ) {
     var out = [];
     for ( var i = 0; i < s.length; i++ ) {
@@ -14,7 +22,7 @@ button.addEventListener( 'click', function() {
         "Name": "php",
         "DestinationType": "ImageUploader",
         "RequestMethod": "POST",
-        "RequestURL": "https://rapeskids.wtf/v1/upload.php",
+        "RequestURL": domain,
         "Body": "MultipartFormData",
         "Arguments": {
           "k": "touploadornottoupload"
