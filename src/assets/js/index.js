@@ -19,7 +19,7 @@ button.addEventListener( 'click', function() {
     
     var data = encode( JSON.stringify({
         "Version": "13.7.0",
-        "Name": "php",
+        "Name": "ShareX Uploader",
         "DestinationType": "ImageUploader",
         "RequestMethod": "POST",
         "RequestURL": domain,
