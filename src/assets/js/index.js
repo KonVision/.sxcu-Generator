@@ -5,7 +5,6 @@ var changeDomain = ()=>{
 }
 
 
-
 function encode( s ) {
     var out = [];
     for ( var i = 0; i < s.length; i++ ) {
