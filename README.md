@@ -6,3 +6,7 @@ Generating .sxcu-files (ShareX Custom Uploader Settings) in vanilla JavaScript.
 ## Things to add
 - [ ] Random Number Generator > Upload Secret
 - [ ] Add Destination Types
+
+
+
+- [ ] More Padding on `form` items
