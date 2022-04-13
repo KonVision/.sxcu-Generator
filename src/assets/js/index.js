@@ -24,7 +24,7 @@ button.addEventListener( 'click', function() {
         "RequestURL": domain,
         "Body": "MultipartFormData",
         "Arguments": {
-          "k": "touploadornottoupload"
+          "k": "securitykey"
         },
         "FileFormName": "d"
       }, null, 4) );
