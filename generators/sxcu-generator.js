@@ -1,4 +1,3 @@
-
 // Generate random string (for Upload secret)
 const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 
