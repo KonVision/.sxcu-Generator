@@ -35,17 +35,16 @@ var button = document.getElementById( 'button' );
 button.addEventListener( 'click', function() {
     
     var data = encode( JSON.stringify({
-        "Version": "13.7.0",
         "Name": "ShareX Uploader",
-        "DestinationType": "ImageUploader",
-        "RequestMethod": "POST",
+        "RequestType": "POST",
         "RequestURL": domain,
         "Body": "MultipartFormData",
         "Arguments": {
-          "k": uploadsecret
+          "key": uploadsecret
         },
-        "FileFormName": "d"
-      }, null, 4) );
+        "FileFormName": "file",
+        "URL": "$json:url$"
+    }, null, 4) );
 
     var blob = new Blob( [ data ], {
         type: 'application/octet-stream'
