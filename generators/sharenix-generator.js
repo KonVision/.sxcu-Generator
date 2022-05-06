@@ -35,7 +35,7 @@ var data = encode( JSON.stringify({
     },
     "FileFormName": "file",
     "URL": "$json:url$"
-  }, null, 4) );
+}, null, 4) );
 
 var blob = new Blob( [ data ], {
     type: 'application/octet-stream'
