@@ -45,7 +45,7 @@ button.addEventListener( 'click', function() {
           "k": uploadsecret
         },
         "FileFormName": "d"
-      }, null, 4) );
+}, null, 4) );
 
     var blob = new Blob( [ data ], {
         type: 'application/octet-stream'
